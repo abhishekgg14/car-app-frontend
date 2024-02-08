@@ -15,7 +15,9 @@ const Nav = () => {
                             <li class="nav-item">
                                 <a class="nav-link" href="/">Add Car</a>
                             </li>
-            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/view">View Cars</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
