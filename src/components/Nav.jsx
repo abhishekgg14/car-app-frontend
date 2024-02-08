@@ -18,6 +18,9 @@ const Nav = () => {
                             <li class="nav-item">
                                 <a class="nav-link" href="/view">View Cars</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/search">Search Cars</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
