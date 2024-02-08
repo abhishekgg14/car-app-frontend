@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AddCar from './components/AddCar';
 import Nav from './components/Nav';
 import View from './components/View';
+import Search from './components/Search';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path='/' element={<><Nav/><AddCar/></>} />
           <Route path='/view' element={<><Nav/><View/></>} />
+          <Route path='/search' element={<><Nav/><Search/></>} />
         </Routes>
       </BrowserRouter>
     </div>
